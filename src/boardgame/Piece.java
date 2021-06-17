@@ -6,16 +6,16 @@ public class Piece {
 	private Board board;
 	
 	
+	
 	public Piece() {
 	}
-
 
 	public Piece( Board board) {
 		this.board = board;
 		position = null;
 	}
 
-	public Board getBoard() {
+	protected Board getBoard() {
 		return board;
 	}
 
